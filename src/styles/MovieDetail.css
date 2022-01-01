@@ -1,0 +1,11 @@
+.movieDetails img {
+    width: 50%;
+}
+
+.movieDetails {
+    padding: 40px;
+}
+
+.title {
+    text-align: center;
+}

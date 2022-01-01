@@ -1,0 +1,22 @@
+.catalog {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.rented {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+}
+
+.rented img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+#search-input {
+    width: 300px;
+    margin-right: 20px;
+}

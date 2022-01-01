@@ -1,0 +1,12 @@
+.movie {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+}
+
+.icons {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
