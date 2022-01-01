@@ -25,7 +25,7 @@ class Movie extends Component {
         let movie = this.props.movie
         return(
             <div className='movie'>
-                 <Link to={`/movies/${movie.id}`}> <img src={movie.img} alt={movie.title}></img></Link>
+                 <Link to={`/movies/${movie.id}`}><img src={movie.img} alt={movie.title}></img></Link>
                 <div className='icons'>
                     <span onClick={this.rent}><FaPlusCircle /></span>
                     <span onClick={this.unrent}><FaMinusCircle /></span>
